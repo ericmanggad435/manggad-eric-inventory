@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2024 at 08:33 AM
+-- Generation Time: Jul 05, 2024 at 07:37 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -40,8 +40,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_name`, `quantity`, `unit`, `price`) VALUES
-(1, 'slipper', 4, 'size 42', 250.00),
-(2, 'hollowblocks', 12, '1 dozen', 400.00);
+(1, 'slipper', 4, 'size 42', 253.00);
 
 -- --------------------------------------------------------
 

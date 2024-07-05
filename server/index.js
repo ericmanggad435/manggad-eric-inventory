@@ -4,10 +4,10 @@ import cors from 'cors';
 import { checkConnection } from './db_config.js';
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 const connection = checkConnection();
-app.use(cors({credentials: true,origin: ["http://localhost:5174"] }));
+app.use(cors({credentials: true,origin: ["http://localhost:5173"] }));
 app.use(express.json());
 
 app.post('/login', async (req, res) => {
