@@ -61,7 +61,7 @@ const Inventory = () => {
   };
 
   return (
-    <div className="h-screen bg-blue-100">
+    <div className="h-screen bg-white">
       <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
         <h1 className="text-4xl font-bold text-center mb-4 text-gray-800">My Inventory</h1>
 
@@ -94,7 +94,7 @@ const Inventory = () => {
                     <td>{element.price}</td>
                     <td>
                       <button
-                        className="p-2 rounded bg-green-400 text-white hover:bg-orange-700"
+                        className="p-2 rounded bg-blue-400 text-white hover:bg-orange-700"
                         onClick={() => {
                           setEditingProduct(element);
                         }}
@@ -102,7 +102,7 @@ const Inventory = () => {
                         Edit
                       </button>
                       <button
-                        className="p-2 rounded bg-green-400 text-white hover:bg-red-700"
+                        className="p-2 rounded bg-blue-400 text-white hover:bg-red-700"
                         onClick={() => handleDelete(element.product_id)}
                       >
                         Delete
@@ -117,7 +117,7 @@ const Inventory = () => {
           </table>
         )}
 <div className="m-5">
-          <button className="p-2 rounded bg-green-400 text-white hover:bg-green-700" onClick={handleShowAddProduct}>
+          <button className="p-2 rounded bg-blue-400 text-white hover:bg-green-700" onClick={handleShowAddProduct}>
             Add Product
           </button>
         </div>
