@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2024 at 09:52 AM
+-- Generation Time: Jul 11, 2024 at 03:34 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -40,7 +40,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_name`, `quantity`, `unit`, `price`) VALUES
-(1, 'short pants', 4, 'size 28', 1500.00);
+(1, 'shoes', 1, '48', 1000.00);
 
 -- --------------------------------------------------------
 
@@ -59,8 +59,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `name`) VALUES
-('vic', '123', ''),
-('vic', '123', '');
+('eric', '123', ''),
+('eric', '123', '');
 
 --
 -- Indexes for dumped tables
